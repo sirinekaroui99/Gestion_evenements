@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1637351740 source:/home/linux/Desktop/Project/Projet_SE/main.c
+	<stdio.h>
+	<stdlib.h>
+	"/home/linux/Desktop/Project/Projet_SE/AjouterProcesseur.c"
+	"/home/linux/Desktop/Project/Projet_SE/menuAlgo.c"
+	"/home/linux/Desktop/Project/Projet_SE/Politiques/FIFO.c"
+	"/home/linux/Desktop/Project/Projet_SE/Politiques/RoundRobin.c"
+
+1637186060 /home/linux/Desktop/Project/AjouterProcesseur.c
+	<stdio.h>
+	<stdlib.h>
+
+1637186741 /home/linux/Desktop/Project/menuAlgo.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+
+1637186973 /home/linux/Desktop/Project/Politiques/FIFO.c
+	<stdio.h>
+	<stdlib.h>
+
+1637187358 /home/linux/Desktop/Project/Projet_SE/AjouterProcesseur.c
+	<stdio.h>
+	<stdlib.h>
+
+1637346836 /home/linux/Desktop/Project/Projet_SE/menuAlgo.c
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+
+1637351701 /home/linux/Desktop/Project/Projet_SE/Politiques/FIFO.c
+	<stdio.h>
+	<stdlib.h>
+
+1637351499 /home/linux/Desktop/Project/Projet_SE/Politiques/RoundRobin.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,14 @@
+default: main
+
+main.o,FIFO.o,SJF.o,RoundRobin.o,SRT.o,Priority.o: main.c,FIFO.c,SJF.c,RoundRobin.c,SRT.c,Priority.c
+	gcc -c main.c,FIFO.c,SJF.c,RoundRobin.c,SRT.c,Priority.c -o main.o,FIFO.o,SJF.o,RoundRobin.o,SRT.o,Priority.o
+
+program: main.o,FIFO.o,SJF.o,RoundRobin.o,SRT.o,Priority.o
+	gcc main,FIFO,SJF,RoundRobin,SRT,Priority -o main,FIFO,SJF,RoundRobin,SRT,Priority
+
+run : 
+	./main
+
+clean:
+	-rm -f main.o
+	-rm -f main
